@@ -343,3 +343,46 @@ footer {
   text-align: center;
 }
 
+/* MEDIA QUERIES ----------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 420px) {
+
+  .main-navigation {
+    padding: 20px 0px 20px;
+  }
+
+  .main-navigation li {
+    float: none;
+    padding: 4px 6px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .form,
+  .social-btns {
+    width: 100%;
+  }
+
+  .social-btns ul {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-40%);
+    width: 100%;
+  }
+
+  .intro-new {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+  }
+
+  .article-intro,
+  .article-img {
+    width: 100%;
+  }
+
+}
